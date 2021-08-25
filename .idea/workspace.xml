@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da34227c-fd56-4e8c-a7d6-e8d6d651957d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/shared-ui/HeroBanner/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/shared-ui/Navbar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/shared-ui/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/css/2.ea1f8e13.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/css/2.ea1f8e13.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/css/main.a617e044.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/css/main.a617e044.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/2.8b1b7f67.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/2.8b1b7f67.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/2.8b1b7f67.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/3.8eca1e39.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/3.8eca1e39.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/main.6a461c9b.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/main.6a461c9b.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/runtime-main.afefa60c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/build/static/js/runtime-main.afefa60c.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-a/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-b/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/web-c/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-a/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-a/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-a/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-a/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-a/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-a/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-a/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-a/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-a/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-b/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-b/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-b/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-b/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-b/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-b/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-b/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-b/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-b/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-c/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-c/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-c/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-c/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-c/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-c/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-c/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web-c/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web-c/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +55,7 @@
       <updated>1629857399273</updated>
       <workItem from="1629857402339" duration="61000" />
       <workItem from="1629857467044" duration="8414000" />
-      <workItem from="1629877579672" duration="3608000" />
+      <workItem from="1629877579672" duration="4084000" />
     </task>
     <servers />
   </component>
