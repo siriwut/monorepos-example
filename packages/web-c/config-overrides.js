@@ -1,8 +1,9 @@
 /* eslint-disable */
-import path from 'path'
-import { override, babelInclude } from 'customize-cra'
+var path = require('path')
 
-export default (config, env) => {
+const { override, babelInclude } = require('customize-cra')
+
+module.exports = function (config, env) {
   return Object.assign(
     config,
     override(
@@ -10,7 +11,7 @@ export default (config, env) => {
         /* transpile (converting to es5) code in src/ and shared component library */
         path.resolve('src'),
         path.resolve('../shared-ui'),
-      ])
-    )(config, env)
+      ]),
+    )(config, env),
   )
 }

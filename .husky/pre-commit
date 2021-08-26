@@ -3,3 +3,4 @@
 
 pretty-quick --staged
 yarn lint
+yarn test
