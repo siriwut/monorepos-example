@@ -1,8 +1,8 @@
-var path = require('path');
+/* eslint-disable */
+import path from 'path'
+import { override, babelInclude } from 'customize-cra'
 
-const { override, babelInclude } = require('customize-cra');
-
-module.exports = function (config, env) {
+export default (config, env) => {
   return Object.assign(
     config,
     override(
@@ -12,5 +12,5 @@ module.exports = function (config, env) {
         path.resolve('../shared-ui'),
       ])
     )(config, env)
-  );
-};
+  )
+}
