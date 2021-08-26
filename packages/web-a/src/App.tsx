@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <HeroBanner />
-      <h1>Web A 113</h1>
+      <h1>Web A</h1>
     </>
   )
 }
