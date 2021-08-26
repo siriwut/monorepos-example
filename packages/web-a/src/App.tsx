@@ -7,7 +7,7 @@ import HeroBanner from "@lib/shared-ui/HeroBanner"
 function App() {
   return (
     <>
-      <Navbar />
+<Navbar />
       <HeroBanner />
       <h1>Web A 1</h1>
     </>
