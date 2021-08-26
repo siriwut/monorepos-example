@@ -24,8 +24,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
