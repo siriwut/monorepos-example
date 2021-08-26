@@ -19,7 +19,13 @@
     "test:update": "lerna run test -- -u",
     "test:update:changed": "lerna run --since origin/master --include-dependents test -- -u",
     "typecheck": "lerna exec -- tsc --noEmit",
-    "typecheck:changed": "lerna exec --since origin/master --include-dependents -- tsc --noEmit"
+    "typecheck:changed": "lerna exec --since origin/master --include-dependents -- tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -42,7 +48,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^7.0.2",
+    "husky": "^7.0.0",
     "lerna": "^4.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
