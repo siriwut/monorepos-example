@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <HeroBanner />
-      <h1>Web 555</h1>
+      <h1>Web A</h1>
     </>
   )
 }
