@@ -4,6 +4,6 @@ import HeroBanner from './index'
 
 test('renders learn react link', () => {
   render(<HeroBanner />)
-  const linkElement = screen.getByText(/Web 555/i)
+  const linkElement = screen.getByText(/Third slide label/i)
   expect(linkElement).toBeInTheDocument()
 })

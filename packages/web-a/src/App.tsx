@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
-import Navbar from '@lib/shared-ui/Navbar'
-import HeroBanner from '@lib/shared-ui/HeroBanner'
+import { Navbar, HeroBanner } from '@lib/shared-ui'
 
 function App() {
   return (
